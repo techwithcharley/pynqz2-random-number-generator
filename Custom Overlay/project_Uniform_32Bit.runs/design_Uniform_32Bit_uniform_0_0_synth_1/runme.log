@@ -1,0 +1,524 @@
+
+*** Running vivado
+    with args -log design_Uniform_32Bit_uniform_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_Uniform_32Bit_uniform_0_0.tcl
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source design_Uniform_32Bit_uniform_0_0.tcl -notrace
+Command: synth_design -top design_Uniform_32Bit_uniform_0_0 -part xc7z020clg400-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 11092 
+WARNING: [Synth 8-1958] event expressions must result in a singular type [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/uniform_axi_lite_interface_verilog.v:269]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:04 . Memory (MB): peak = 401.051 ; gain = 110.949
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'design_Uniform_32Bit_uniform_0_0' [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ip/design_Uniform_32Bit_uniform_0_0/synth/design_Uniform_32Bit_uniform_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'uniform' [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/uniform.vhd:212]
+INFO: [Synth 8-638] synthesizing module 'uniform_axi_lite_interface' [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/uniform_entity_declarations.vhd:1336]
+INFO: [Synth 8-3491] module 'uniform_axi_lite_interface_verilog' declared at 'c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/uniform_axi_lite_interface_verilog.v:38' bound to instance 'inst' of component 'uniform_axi_lite_interface_verilog' [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/uniform_entity_declarations.vhd:1367]
+INFO: [Synth 8-6157] synthesizing module 'uniform_axi_lite_interface_verilog' [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/uniform_axi_lite_interface_verilog.v:38]
+WARNING: [Synth 8-6104] Input port 'bit_depth' has an internal driver [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/uniform_axi_lite_interface_verilog.v:68]
+WARNING: [Synth 8-6104] Input port 'bit_depth' has an internal driver [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/uniform_axi_lite_interface_verilog.v:68]
+WARNING: [Synth 8-6104] Input port 'bit_depth' has an internal driver [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/uniform_axi_lite_interface_verilog.v:68]
+WARNING: [Synth 8-6104] Input port 'bit_depth' has an internal driver [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/uniform_axi_lite_interface_verilog.v:68]
+WARNING: [Synth 8-6104] Input port 'bit_depth' has an internal driver [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/uniform_axi_lite_interface_verilog.v:68]
+WARNING: [Synth 8-6104] Input port 'bit_depth' has an internal driver [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/uniform_axi_lite_interface_verilog.v:68]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter C_S_NUM_OFFSETS bound to: 5 - type: integer 
+	Parameter ADDR_LSB bound to: 3 - type: integer 
+	Parameter ADDR_MSB bound to: 5 - type: integer 
+	Parameter DEC_SIZE bound to: 3 - type: integer 
+WARNING: [Synth 8-6104] Input port 'bit_depth' has an internal driver [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/uniform_axi_lite_interface_verilog.v:68]
+WARNING: [Synth 8-6104] Input port 'bit_depth' has an internal driver [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/uniform_axi_lite_interface_verilog.v:68]
+WARNING: [Synth 8-6104] Input port 'bit_depth' has an internal driver [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/uniform_axi_lite_interface_verilog.v:68]
+WARNING: [Synth 8-6104] Input port 'bit_depth' has an internal driver [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/uniform_axi_lite_interface_verilog.v:68]
+WARNING: [Synth 8-6104] Input port 'bit_depth' has an internal driver [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/uniform_axi_lite_interface_verilog.v:68]
+WARNING: [Synth 8-6104] Input port 'bit_depth' has an internal driver [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/uniform_axi_lite_interface_verilog.v:68]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg_array_reg[4] was removed.  [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/uniform_axi_lite_interface_verilog.v:102]
+INFO: [Synth 8-6155] done synthesizing module 'uniform_axi_lite_interface_verilog' (1#1) [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/uniform_axi_lite_interface_verilog.v:38]
+INFO: [Synth 8-256] done synthesizing module 'uniform_axi_lite_interface' (2#1) [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/uniform_entity_declarations.vhd:1336]
+INFO: [Synth 8-638] synthesizing module 'uniform_default_clock_driver' [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/uniform.vhd:169]
+INFO: [Synth 8-638] synthesizing module 'xlclockdriver' [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/xlclockdriver_rd.vhd:59]
+	Parameter period bound to: 1 - type: integer 
+	Parameter log_2_period bound to: 1 - type: integer 
+	Parameter pipeline_regs bound to: 5 - type: integer 
+	Parameter use_bufg bound to: 0 - type: integer 
+	Parameter width bound to: 1 - type: integer 
+	Parameter init_index bound to: 0 - type: integer 
+	Parameter init_value bound to: 4'b0000 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'synth_reg_w_init' declared at 'c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/synth_reg_w_init.vhd:31' bound to instance 'clr_reg' of component 'synth_reg_w_init' [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/xlclockdriver_rd.vhd:236]
+INFO: [Synth 8-638] synthesizing module 'xil_defaultlib_synth_reg_w_init' [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/synth_reg_w_init.vhd:47]
+	Parameter width bound to: 1 - type: integer 
+	Parameter init_index bound to: 0 - type: integer 
+	Parameter init_value bound to: 4'b0000 
+	Parameter latency bound to: 1 - type: integer 
+	Parameter width bound to: 1 - type: integer 
+	Parameter init_index bound to: 0 - type: integer 
+	Parameter init_value bound to: 4'b0000 
+INFO: [Synth 8-3491] module 'single_reg_w_init' declared at 'c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/single_reg_w_init.vhd:22' bound to instance 'reg_comp' of component 'single_reg_w_init' [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/synth_reg_w_init.vhd:79]
+INFO: [Synth 8-638] synthesizing module 'xil_defaultlib_single_reg_w_init' [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/single_reg_w_init.vhd:37]
+	Parameter width bound to: 1 - type: integer 
+	Parameter init_index bound to: 0 - type: integer 
+	Parameter init_value bound to: 4'b0000 
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/single_reg_w_init.vhd:86]
+INFO: [Synth 8-256] done synthesizing module 'xil_defaultlib_single_reg_w_init' (3#1) [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/single_reg_w_init.vhd:37]
+INFO: [Synth 8-256] done synthesizing module 'xil_defaultlib_synth_reg_w_init' (4#1) [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/synth_reg_w_init.vhd:47]
+WARNING: [Synth 8-6014] Unused sequential element clk_num_reg was removed.  [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/xlclockdriver_rd.vhd:212]
+INFO: [Synth 8-256] done synthesizing module 'xlclockdriver' (5#1) [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/xlclockdriver_rd.vhd:59]
+INFO: [Synth 8-256] done synthesizing module 'uniform_default_clock_driver' (6#1) [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/uniform.vhd:169]
+INFO: [Synth 8-638] synthesizing module 'uniform_struct' [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/uniform.vhd:17]
+INFO: [Synth 8-638] synthesizing module 'uniform_xlconvert' [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/uniform_entity_declarations.vhd:125]
+	Parameter din_width bound to: 32 - type: integer 
+	Parameter din_bin_pt bound to: 0 - type: integer 
+	Parameter din_arith bound to: 1 - type: integer 
+	Parameter dout_width bound to: 32 - type: integer 
+	Parameter dout_bin_pt bound to: 0 - type: integer 
+	Parameter dout_arith bound to: 1 - type: integer 
+	Parameter en_width bound to: 1 - type: integer 
+	Parameter en_bin_pt bound to: 0 - type: integer 
+	Parameter en_arith bound to: 1 - type: integer 
+	Parameter bool_conversion bound to: 0 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+	Parameter quantization bound to: 1 - type: integer 
+	Parameter overflow bound to: 1 - type: integer 
+	Parameter din_width bound to: 32 - type: integer 
+	Parameter din_bin_pt bound to: 0 - type: integer 
+	Parameter din_arith bound to: 1 - type: integer 
+	Parameter dout_width bound to: 32 - type: integer 
+	Parameter dout_bin_pt bound to: 0 - type: integer 
+	Parameter dout_arith bound to: 1 - type: integer 
+	Parameter quantization bound to: 1 - type: integer 
+	Parameter overflow bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'convert_func_call_uniform_xlconvert' declared at 'c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/uniform_entity_declarations.vhd:69' bound to instance 'convert' of component 'convert_func_call_uniform_xlconvert' [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/uniform_entity_declarations.vhd:177]
+INFO: [Synth 8-638] synthesizing module 'convert_func_call_uniform_xlconvert' [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/uniform_entity_declarations.vhd:84]
+	Parameter din_width bound to: 32 - type: integer 
+	Parameter din_bin_pt bound to: 0 - type: integer 
+	Parameter din_arith bound to: 1 - type: integer 
+	Parameter dout_width bound to: 32 - type: integer 
+	Parameter dout_bin_pt bound to: 0 - type: integer 
+	Parameter dout_arith bound to: 1 - type: integer 
+	Parameter quantization bound to: 1 - type: integer 
+	Parameter overflow bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'convert_func_call_uniform_xlconvert' (7#1) [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/uniform_entity_declarations.vhd:84]
+	Parameter width bound to: 32 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'synth_reg' declared at 'c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/synth_reg.vhd:20' bound to instance 'reg' of component 'synth_reg' [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/uniform_entity_declarations.vhd:193]
+INFO: [Synth 8-638] synthesizing module 'xil_defaultlib_synth_reg' [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/synth_reg.vhd:30]
+	Parameter width bound to: 32 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+	Parameter width bound to: 32 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'srlc33e' declared at 'c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/srl33e.vhd:22' bound to instance 'last_srlc33e' of component 'srlc33e' [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/synth_reg.vhd:84]
+INFO: [Synth 8-638] synthesizing module 'xil_defaultlib_srlc33e' [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/srl33e.vhd:31]
+	Parameter width bound to: 32 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/srl33e.vhd:75]
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/srl33e.vhd:75]
+INFO: [Synth 8-256] done synthesizing module 'xil_defaultlib_srlc33e' (8#1) [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/srl33e.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'xil_defaultlib_synth_reg' (9#1) [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/synth_reg.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'uniform_xlconvert' (10#1) [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/uniform_entity_declarations.vhd:125]
+INFO: [Synth 8-638] synthesizing module 'uniform_xlconvert__parameterized0' [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/uniform_entity_declarations.vhd:125]
+	Parameter din_width bound to: 1 - type: integer 
+	Parameter din_bin_pt bound to: 0 - type: integer 
+	Parameter din_arith bound to: 1 - type: integer 
+	Parameter dout_width bound to: 1 - type: integer 
+	Parameter dout_bin_pt bound to: 0 - type: integer 
+	Parameter dout_arith bound to: 1 - type: integer 
+	Parameter en_width bound to: 1 - type: integer 
+	Parameter en_bin_pt bound to: 0 - type: integer 
+	Parameter en_arith bound to: 1 - type: integer 
+	Parameter bool_conversion bound to: 1 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+	Parameter quantization bound to: 2 - type: integer 
+	Parameter overflow bound to: 2 - type: integer 
+	Parameter width bound to: 1 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'synth_reg' declared at 'c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/synth_reg.vhd:20' bound to instance 'reg' of component 'synth_reg' [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/uniform_entity_declarations.vhd:193]
+INFO: [Synth 8-638] synthesizing module 'xil_defaultlib_synth_reg__parameterized0' [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/synth_reg.vhd:30]
+	Parameter width bound to: 1 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+	Parameter width bound to: 1 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'srlc33e' declared at 'c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/srl33e.vhd:22' bound to instance 'last_srlc33e' of component 'srlc33e' [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/synth_reg.vhd:84]
+INFO: [Synth 8-638] synthesizing module 'xil_defaultlib_srlc33e__parameterized0' [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/srl33e.vhd:31]
+	Parameter width bound to: 1 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-113] binding component instance 'u2' to cell 'FDE' [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/srl33e.vhd:75]
+INFO: [Synth 8-256] done synthesizing module 'xil_defaultlib_srlc33e__parameterized0' (10#1) [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/srl33e.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'xil_defaultlib_synth_reg__parameterized0' (10#1) [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/synth_reg.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'uniform_xlconvert__parameterized0' (10#1) [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/uniform_entity_declarations.vhd:125]
+INFO: [Synth 8-638] synthesizing module 'uniform_xlconvert__parameterized1' [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/uniform_entity_declarations.vhd:125]
+	Parameter din_width bound to: 1 - type: integer 
+	Parameter din_bin_pt bound to: 0 - type: integer 
+	Parameter din_arith bound to: 1 - type: integer 
+	Parameter dout_width bound to: 1 - type: integer 
+	Parameter dout_bin_pt bound to: 0 - type: integer 
+	Parameter dout_arith bound to: 1 - type: integer 
+	Parameter en_width bound to: 1 - type: integer 
+	Parameter en_bin_pt bound to: 0 - type: integer 
+	Parameter en_arith bound to: 1 - type: integer 
+	Parameter bool_conversion bound to: 1 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+	Parameter quantization bound to: 1 - type: integer 
+	Parameter overflow bound to: 1 - type: integer 
+	Parameter width bound to: 1 - type: integer 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'synth_reg' declared at 'c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/synth_reg.vhd:20' bound to instance 'reg' of component 'synth_reg' [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/uniform_entity_declarations.vhd:193]
+INFO: [Synth 8-256] done synthesizing module 'uniform_xlconvert__parameterized1' (10#1) [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/uniform_entity_declarations.vhd:125]
+INFO: [Synth 8-638] synthesizing module 'sysgen_lfsr_141c5aec25' [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/uniform_entity_declarations.vhd:231]
+INFO: [Synth 8-256] done synthesizing module 'sysgen_lfsr_141c5aec25' (11#1) [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/uniform_entity_declarations.vhd:231]
+INFO: [Synth 8-256] done synthesizing module 'uniform_struct' (12#1) [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/uniform.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'uniform' (13#1) [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/uniform.vhd:212]
+INFO: [Synth 8-6155] done synthesizing module 'design_Uniform_32Bit_uniform_0_0' (14#1) [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ip/design_Uniform_32Bit_uniform_0_0/synth/design_Uniform_32Bit_uniform_0_0.v:57]
+WARNING: [Synth 8-3331] design sysgen_lfsr_141c5aec25 has unconnected port clr
+WARNING: [Synth 8-3331] design xil_defaultlib_synth_reg__parameterized0 has unconnected port clr
+WARNING: [Synth 8-3331] design xil_defaultlib_synth_reg has unconnected port clr
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 440.953 ; gain = 150.852
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 440.953 ; gain = 150.852
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 440.953 ; gain = 150.852
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 67 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ip/design_Uniform_32Bit_uniform_0_0/constrs/uniform.xdc] for cell 'inst'
+Finished Parsing XDC File [c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ip/design_Uniform_32Bit_uniform_0_0/constrs/uniform.xdc] for cell 'inst'
+Parsing XDC File [C:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.runs/design_Uniform_32Bit_uniform_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.runs/design_Uniform_32Bit_uniform_0_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 67 instances were transformed.
+  FDE => FDRE: 67 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.129 . Memory (MB): peak = 796.652 ; gain = 0.375
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:20 . Memory (MB): peak = 796.652 ; gain = 506.551
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:20 . Memory (MB): peak = 796.652 ; gain = 506.551
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for inst. (constraint file  C:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.runs/design_Uniform_32Bit_uniform_0_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:20 . Memory (MB): peak = 796.652 ; gain = 506.551
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "dec_w" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "dec_r" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:20 . Memory (MB): peak = 796.652 ; gain = 506.551
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   5 Input      1 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 5     
+	                5 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 37    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 16    
+	   2 Input      8 Bit        Muxes := 64    
+	   6 Input      3 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 37    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module uniform_axi_lite_interface_verilog 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 5     
+	                5 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 16    
+	   2 Input      8 Bit        Muxes := 64    
+	   6 Input      3 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 5     
+Module sysgen_lfsr_141c5aec25 
+Detailed RTL Component Info : 
++---XORs : 
+	   5 Input      1 Bit         XORs := 1     
++---Registers : 
+	                1 Bit    Registers := 32    
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 32    
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-3886] merging instance 'inst/uniform_axi_lite_interface/inst/axi_rresp_reg[0]' (FDRE) to 'inst/uniform_axi_lite_interface/inst/axi_rresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\uniform_axi_lite_interface/inst/axi_rresp_reg[1] )
+INFO: [Synth 8-3886] merging instance 'inst/uniform_axi_lite_interface/inst/axi_bresp_reg[0]' (FDRE) to 'inst/uniform_axi_lite_interface/inst/axi_bresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\uniform_axi_lite_interface/inst/axi_bresp_reg[1] )
+WARNING: [Synth 8-3332] Sequential element (uniform_default_clock_driver/clockdriver/clr_reg/latency_gt_0.fd_array[1].reg_comp/fd_prim_array[0].bit_is_0.fdre_comp) is unused and will be removed from module uniform.
+WARNING: [Synth 8-3332] Sequential element (uniform_axi_lite_interface/inst/axi_bresp_reg[1]) is unused and will be removed from module uniform.
+WARNING: [Synth 8-3332] Sequential element (uniform_axi_lite_interface/inst/axi_rresp_reg[1]) is unused and will be removed from module uniform.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:22 . Memory (MB): peak = 796.652 ; gain = 506.551
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:33 . Memory (MB): peak = 796.652 ; gain = 506.551
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:33 . Memory (MB): peak = 796.902 ; gain = 506.801
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:23 ; elapsed = 00:00:33 . Memory (MB): peak = 822.949 ; gain = 532.848
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:24 ; elapsed = 00:00:34 . Memory (MB): peak = 822.949 ; gain = 532.848
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:24 ; elapsed = 00:00:34 . Memory (MB): peak = 822.949 ; gain = 532.848
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:24 ; elapsed = 00:00:34 . Memory (MB): peak = 822.949 ; gain = 532.848
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:24 ; elapsed = 00:00:34 . Memory (MB): peak = 822.949 ; gain = 532.848
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:24 ; elapsed = 00:00:34 . Memory (MB): peak = 822.949 ; gain = 532.848
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:24 ; elapsed = 00:00:34 . Memory (MB): peak = 822.949 ; gain = 532.848
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |     1|
+|2     |LUT2 |    63|
+|3     |LUT3 |    67|
+|4     |LUT4 |    22|
+|5     |LUT5 |     6|
+|6     |LUT6 |    39|
+|7     |FDE  |    67|
+|8     |FDRE |   201|
+|9     |FDSE |     6|
++------+-----+------+
+
+Report Instance Areas: 
++------+-------------------------------------+-------------------------------------------+------+
+|      |Instance                             |Module                                     |Cells |
++------+-------------------------------------+-------------------------------------------+------+
+|1     |top                                  |                                           |   472|
+|2     |  inst                               |uniform                                    |   472|
+|3     |    uniform_axi_lite_interface       |uniform_axi_lite_interface                 |   340|
+|4     |      inst                           |uniform_axi_lite_interface_verilog         |   340|
+|5     |    uniform_struct                   |uniform_struct                             |   132|
+|6     |      convert                        |uniform_xlconvert                          |    64|
+|7     |        \latency_test.reg            |xil_defaultlib_synth_reg_6                 |    64|
+|8     |          \partial_one.last_srlc33e  |xil_defaultlib_srlc33e_7                   |    64|
+|9     |      convert1                       |uniform_xlconvert__parameterized0          |     1|
+|10    |        \latency_test.reg            |xil_defaultlib_synth_reg__parameterized0_4 |     1|
+|11    |          \partial_one.last_srlc33e  |xil_defaultlib_srlc33e__parameterized0_5   |     1|
+|12    |      convert2                       |uniform_xlconvert__parameterized1          |     1|
+|13    |        \latency_test.reg            |xil_defaultlib_synth_reg__parameterized0_2 |     1|
+|14    |          \partial_one.last_srlc33e  |xil_defaultlib_srlc33e__parameterized0_3   |     1|
+|15    |      convert3                       |uniform_xlconvert_0                        |    32|
+|16    |        \latency_test.reg            |xil_defaultlib_synth_reg                   |    32|
+|17    |          \partial_one.last_srlc33e  |xil_defaultlib_srlc33e                     |    32|
+|18    |      convert4                       |uniform_xlconvert__parameterized1_1        |     1|
+|19    |        \latency_test.reg            |xil_defaultlib_synth_reg__parameterized0   |     1|
+|20    |          \partial_one.last_srlc33e  |xil_defaultlib_srlc33e__parameterized0     |     1|
+|21    |      lfsr                           |sysgen_lfsr_141c5aec25                     |    33|
++------+-------------------------------------+-------------------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:24 ; elapsed = 00:00:34 . Memory (MB): peak = 822.949 ; gain = 532.848
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 3 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:15 ; elapsed = 00:00:22 . Memory (MB): peak = 822.949 ; gain = 177.148
+Synthesis Optimization Complete : Time (s): cpu = 00:00:25 ; elapsed = 00:00:35 . Memory (MB): peak = 822.949 ; gain = 532.848
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 67 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 67 instances were transformed.
+  FDE => FDRE: 67 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+98 Infos, 21 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:38 . Memory (MB): peak = 824.023 ; gain = 540.836
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.runs/design_Uniform_32Bit_uniform_0_0_synth_1/design_Uniform_32Bit_uniform_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1482] Added synthesis output to IP cache for IP c:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ip/design_Uniform_32Bit_uniform_0_0/design_Uniform_32Bit_uniform_0_0.xci
+INFO: [Coretcl 2-1174] Renamed 20 cell refs.
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/lpb16134/Xilinx/project_Uniform_32Bit/project_Uniform_32Bit.runs/design_Uniform_32Bit_uniform_0_0_synth_1/design_Uniform_32Bit_uniform_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_Uniform_32Bit_uniform_0_0_utilization_synth.rpt -pb design_Uniform_32Bit_uniform_0_0_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.033 . Memory (MB): peak = 824.023 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Tue May 14 21:21:39 2019...

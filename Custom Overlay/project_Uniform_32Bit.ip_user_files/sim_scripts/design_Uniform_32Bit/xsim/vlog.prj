@@ -1,0 +1,12 @@
+verilog xil_defaultlib --include "../../../../project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/ec67/hdl" --include "../../../../project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/5bb9/hdl/verilog" --include "../../../../project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/70fd/hdl" --include "../../../../project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl" \
+"../../../bd/design_Uniform_32Bit/ip/design_Uniform_32Bit_processing_system7_0_0/sim/design_Uniform_32Bit_processing_system7_0_0.v" \
+"../../../../project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/uniform_axi_lite_interface_verilog.v" \
+"../../../../project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/synth_reg.v" \
+"../../../../project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/synth_reg_w_init.v" \
+"../../../../project_Uniform_32Bit.srcs/sources_1/bd/design_Uniform_32Bit/ipshared/4ee6/hdl/convert_type.v" \
+"../../../bd/design_Uniform_32Bit/ip/design_Uniform_32Bit_uniform_0_0/sim/design_Uniform_32Bit_uniform_0_0.v" \
+"../../../bd/design_Uniform_32Bit/ip/design_Uniform_32Bit_auto_pc_0/sim/design_Uniform_32Bit_auto_pc_0.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

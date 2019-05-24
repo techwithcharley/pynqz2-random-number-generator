@@ -1,0 +1,626 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed May 15 15:32:23 2019
+# Process ID: 6820
+# Current directory: C:/Users/lpb16134/PYNQ-2.3/boards/Pynq-Z2/base/base/base.runs/base_color_convert_1_synth_1
+# Command line: vivado.exe -log base_color_convert_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source base_color_convert_1.tcl
+# Log file: C:/Users/lpb16134/PYNQ-2.3/boards/Pynq-Z2/base/base/base.runs/base_color_convert_1_synth_1/base_color_convert_1.vds
+# Journal file: C:/Users/lpb16134/PYNQ-2.3/boards/Pynq-Z2/base/base/base.runs/base_color_convert_1_synth_1\vivado.jou
+#-----------------------------------------------------------
+source base_color_convert_1.tcl -notrace
+Command: synth_design -top base_color_convert_1 -part xc7z020clg400-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 14580 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 396.414 ; gain = 102.637
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'base_color_convert_1' [c:/Users/lpb16134/PYNQ-2.3/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ip/base_color_convert_1/synth/base_color_convert_1.vhd:92]
+	Parameter C_S_AXI_AXILITES_ADDR_WIDTH bound to: 7 - type: integer 
+	Parameter C_S_AXI_AXILITES_DATA_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'color_convert' declared at 'c:/Users/lpb16134/PYNQ-2.3/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/c015/hdl/vhdl/color_convert.vhd:12' bound to instance 'U0' of component 'color_convert' [c:/Users/lpb16134/PYNQ-2.3/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ip/base_color_convert_1/synth/base_color_convert_1.vhd:194]
+INFO: [Synth 8-638] synthesizing module 'color_convert' [c:/Users/lpb16134/PYNQ-2.3/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/c015/hdl/vhdl/color_convert.vhd:51]
+	Parameter C_S_AXI_AXILITES_ADDR_WIDTH bound to: 7 - type: integer 
+	Parameter C_S_AXI_AXILITES_DATA_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [c:/Users/lpb16134/PYNQ-2.3/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/c015/hdl/vhdl/color_convert.vhd:213]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [c:/Users/lpb16134/PYNQ-2.3/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/c015/hdl/vhdl/color_convert.vhd:216]
+INFO: [Synth 8-5534] Detected attribute (* use_dsp48 = "no" *) [c:/Users/lpb16134/PYNQ-2.3/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/c015/hdl/vhdl/color_convert.vhd:323]
+INFO: [Synth 8-5534] Detected attribute (* use_dsp48 = "no" *) [c:/Users/lpb16134/PYNQ-2.3/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/c015/hdl/vhdl/color_convert.vhd:338]
+INFO: [Synth 8-5534] Detected attribute (* use_dsp48 = "no" *) [c:/Users/lpb16134/PYNQ-2.3/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/c015/hdl/vhdl/color_convert.vhd:352]
+WARNING: [Synth 8-5974] attribute "use_dsp48" has been deprecated, please use "use_dsp" instead 
+WARNING: [Synth 8-5974] attribute "use_dsp48" has been deprecated, please use "use_dsp" instead 
+WARNING: [Synth 8-5974] attribute "use_dsp48" has been deprecated, please use "use_dsp" instead 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 7 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'color_convert_AXILiteS_s_axi' declared at 'c:/Users/lpb16134/PYNQ-2.3/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/c015/hdl/vhdl/color_convert_AXILiteS_s_axi.vhd:12' bound to instance 'color_convert_AXILiteS_s_axi_U' of component 'color_convert_AXILiteS_s_axi' [c:/Users/lpb16134/PYNQ-2.3/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/c015/hdl/vhdl/color_convert.vhd:483]
+INFO: [Synth 8-638] synthesizing module 'color_convert_AXILiteS_s_axi' [c:/Users/lpb16134/PYNQ-2.3/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/c015/hdl/vhdl/color_convert_AXILiteS_s_axi.vhd:111]
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 7 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'color_convert_AXILiteS_s_axi' (1#1) [c:/Users/lpb16134/PYNQ-2.3/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/c015/hdl/vhdl/color_convert_AXILiteS_s_axi.vhd:111]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 1 - type: integer 
+	Parameter din0_WIDTH bound to: 8 - type: integer 
+	Parameter din1_WIDTH bound to: 10 - type: integer 
+	Parameter din2_WIDTH bound to: 18 - type: integer 
+	Parameter dout_WIDTH bound to: 19 - type: integer 
+INFO: [Synth 8-3491] module 'color_convert_macbkb' declared at 'c:/Users/lpb16134/PYNQ-2.3/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/c015/hdl/vhdl/color_convert_macbkb.vhd:45' bound to instance 'color_convert_macbkb_U1' of component 'color_convert_macbkb' [c:/Users/lpb16134/PYNQ-2.3/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/c015/hdl/vhdl/color_convert.vhd:523]
+INFO: [Synth 8-638] synthesizing module 'color_convert_macbkb' [c:/Users/lpb16134/PYNQ-2.3/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/c015/hdl/vhdl/color_convert_macbkb.vhd:60]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 1 - type: integer 
+	Parameter din0_WIDTH bound to: 8 - type: integer 
+	Parameter din1_WIDTH bound to: 10 - type: integer 
+	Parameter din2_WIDTH bound to: 18 - type: integer 
+	Parameter dout_WIDTH bound to: 19 - type: integer 
+INFO: [Synth 8-3491] module 'color_convert_macbkb_DSP48_0' declared at 'c:/Users/lpb16134/PYNQ-2.3/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/c015/hdl/vhdl/color_convert_macbkb.vhd:12' bound to instance 'color_convert_macbkb_DSP48_0_U' of component 'color_convert_macbkb_DSP48_0' [c:/Users/lpb16134/PYNQ-2.3/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/c015/hdl/vhdl/color_convert_macbkb.vhd:72]
+INFO: [Synth 8-638] synthesizing module 'color_convert_macbkb_DSP48_0' [c:/Users/lpb16134/PYNQ-2.3/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/c015/hdl/vhdl/color_convert_macbkb.vhd:24]
+WARNING: [Synth 8-5974] attribute "use_dsp48" has been deprecated, please use "use_dsp" instead 
+INFO: [Synth 8-256] done synthesizing module 'color_convert_macbkb_DSP48_0' (2#1) [c:/Users/lpb16134/PYNQ-2.3/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/c015/hdl/vhdl/color_convert_macbkb.vhd:24]
+INFO: [Synth 8-256] done synthesizing module 'color_convert_macbkb' (3#1) [c:/Users/lpb16134/PYNQ-2.3/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/c015/hdl/vhdl/color_convert_macbkb.vhd:60]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 1 - type: integer 
+	Parameter din0_WIDTH bound to: 8 - type: integer 
+	Parameter din1_WIDTH bound to: 10 - type: integer 
+	Parameter din2_WIDTH bound to: 18 - type: integer 
+	Parameter dout_WIDTH bound to: 19 - type: integer 
+INFO: [Synth 8-3491] module 'color_convert_macbkb' declared at 'c:/Users/lpb16134/PYNQ-2.3/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/c015/hdl/vhdl/color_convert_macbkb.vhd:45' bound to instance 'color_convert_macbkb_U2' of component 'color_convert_macbkb' [c:/Users/lpb16134/PYNQ-2.3/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/c015/hdl/vhdl/color_convert.vhd:537]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 1 - type: integer 
+	Parameter din0_WIDTH bound to: 8 - type: integer 
+	Parameter din1_WIDTH bound to: 10 - type: integer 
+	Parameter din2_WIDTH bound to: 18 - type: integer 
+	Parameter dout_WIDTH bound to: 19 - type: integer 
+INFO: [Synth 8-3491] module 'color_convert_macbkb' declared at 'c:/Users/lpb16134/PYNQ-2.3/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/c015/hdl/vhdl/color_convert_macbkb.vhd:45' bound to instance 'color_convert_macbkb_U3' of component 'color_convert_macbkb' [c:/Users/lpb16134/PYNQ-2.3/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/c015/hdl/vhdl/color_convert.vhd:551]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 1 - type: integer 
+	Parameter din0_WIDTH bound to: 8 - type: integer 
+	Parameter din1_WIDTH bound to: 10 - type: integer 
+	Parameter din2_WIDTH bound to: 19 - type: integer 
+	Parameter dout_WIDTH bound to: 20 - type: integer 
+INFO: [Synth 8-3491] module 'color_convert_maccud' declared at 'c:/Users/lpb16134/PYNQ-2.3/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/c015/hdl/vhdl/color_convert_maccud.vhd:45' bound to instance 'color_convert_maccud_U4' of component 'color_convert_maccud' [c:/Users/lpb16134/PYNQ-2.3/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/c015/hdl/vhdl/color_convert.vhd:565]
+INFO: [Synth 8-638] synthesizing module 'color_convert_maccud' [c:/Users/lpb16134/PYNQ-2.3/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/c015/hdl/vhdl/color_convert_maccud.vhd:60]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 1 - type: integer 
+	Parameter din0_WIDTH bound to: 8 - type: integer 
+	Parameter din1_WIDTH bound to: 10 - type: integer 
+	Parameter din2_WIDTH bound to: 19 - type: integer 
+	Parameter dout_WIDTH bound to: 20 - type: integer 
+INFO: [Synth 8-3491] module 'color_convert_maccud_DSP48_1' declared at 'c:/Users/lpb16134/PYNQ-2.3/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/c015/hdl/vhdl/color_convert_maccud.vhd:12' bound to instance 'color_convert_maccud_DSP48_1_U' of component 'color_convert_maccud_DSP48_1' [c:/Users/lpb16134/PYNQ-2.3/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/c015/hdl/vhdl/color_convert_maccud.vhd:72]
+INFO: [Synth 8-638] synthesizing module 'color_convert_maccud_DSP48_1' [c:/Users/lpb16134/PYNQ-2.3/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/c015/hdl/vhdl/color_convert_maccud.vhd:24]
+WARNING: [Synth 8-5974] attribute "use_dsp48" has been deprecated, please use "use_dsp" instead 
+INFO: [Synth 8-256] done synthesizing module 'color_convert_maccud_DSP48_1' (4#1) [c:/Users/lpb16134/PYNQ-2.3/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/c015/hdl/vhdl/color_convert_maccud.vhd:24]
+INFO: [Synth 8-256] done synthesizing module 'color_convert_maccud' (5#1) [c:/Users/lpb16134/PYNQ-2.3/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/c015/hdl/vhdl/color_convert_maccud.vhd:60]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 1 - type: integer 
+	Parameter din0_WIDTH bound to: 8 - type: integer 
+	Parameter din1_WIDTH bound to: 10 - type: integer 
+	Parameter din2_WIDTH bound to: 19 - type: integer 
+	Parameter dout_WIDTH bound to: 20 - type: integer 
+INFO: [Synth 8-3491] module 'color_convert_maccud' declared at 'c:/Users/lpb16134/PYNQ-2.3/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/c015/hdl/vhdl/color_convert_maccud.vhd:45' bound to instance 'color_convert_maccud_U5' of component 'color_convert_maccud' [c:/Users/lpb16134/PYNQ-2.3/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/c015/hdl/vhdl/color_convert.vhd:579]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 1 - type: integer 
+	Parameter din0_WIDTH bound to: 8 - type: integer 
+	Parameter din1_WIDTH bound to: 10 - type: integer 
+	Parameter din2_WIDTH bound to: 19 - type: integer 
+	Parameter dout_WIDTH bound to: 20 - type: integer 
+INFO: [Synth 8-3491] module 'color_convert_maccud' declared at 'c:/Users/lpb16134/PYNQ-2.3/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/c015/hdl/vhdl/color_convert_maccud.vhd:45' bound to instance 'color_convert_maccud_U6' of component 'color_convert_maccud' [c:/Users/lpb16134/PYNQ-2.3/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/c015/hdl/vhdl/color_convert.vhd:593]
+INFO: [Synth 8-256] done synthesizing module 'color_convert' (6#1) [c:/Users/lpb16134/PYNQ-2.3/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/c015/hdl/vhdl/color_convert.vhd:51]
+INFO: [Synth 8-256] done synthesizing module 'base_color_convert_1' (7#1) [c:/Users/lpb16134/PYNQ-2.3/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ip/base_color_convert_1/synth/base_color_convert_1.vhd:92]
+WARNING: [Synth 8-3331] design color_convert_AXILiteS_s_axi has unconnected port WDATA[31]
+WARNING: [Synth 8-3331] design color_convert_AXILiteS_s_axi has unconnected port WDATA[30]
+WARNING: [Synth 8-3331] design color_convert_AXILiteS_s_axi has unconnected port WDATA[29]
+WARNING: [Synth 8-3331] design color_convert_AXILiteS_s_axi has unconnected port WDATA[28]
+WARNING: [Synth 8-3331] design color_convert_AXILiteS_s_axi has unconnected port WDATA[27]
+WARNING: [Synth 8-3331] design color_convert_AXILiteS_s_axi has unconnected port WDATA[26]
+WARNING: [Synth 8-3331] design color_convert_AXILiteS_s_axi has unconnected port WDATA[25]
+WARNING: [Synth 8-3331] design color_convert_AXILiteS_s_axi has unconnected port WDATA[24]
+WARNING: [Synth 8-3331] design color_convert_AXILiteS_s_axi has unconnected port WDATA[23]
+WARNING: [Synth 8-3331] design color_convert_AXILiteS_s_axi has unconnected port WDATA[22]
+WARNING: [Synth 8-3331] design color_convert_AXILiteS_s_axi has unconnected port WDATA[21]
+WARNING: [Synth 8-3331] design color_convert_AXILiteS_s_axi has unconnected port WDATA[20]
+WARNING: [Synth 8-3331] design color_convert_AXILiteS_s_axi has unconnected port WDATA[19]
+WARNING: [Synth 8-3331] design color_convert_AXILiteS_s_axi has unconnected port WDATA[18]
+WARNING: [Synth 8-3331] design color_convert_AXILiteS_s_axi has unconnected port WDATA[17]
+WARNING: [Synth 8-3331] design color_convert_AXILiteS_s_axi has unconnected port WDATA[16]
+WARNING: [Synth 8-3331] design color_convert_AXILiteS_s_axi has unconnected port WDATA[15]
+WARNING: [Synth 8-3331] design color_convert_AXILiteS_s_axi has unconnected port WDATA[14]
+WARNING: [Synth 8-3331] design color_convert_AXILiteS_s_axi has unconnected port WDATA[13]
+WARNING: [Synth 8-3331] design color_convert_AXILiteS_s_axi has unconnected port WDATA[12]
+WARNING: [Synth 8-3331] design color_convert_AXILiteS_s_axi has unconnected port WDATA[11]
+WARNING: [Synth 8-3331] design color_convert_AXILiteS_s_axi has unconnected port WDATA[10]
+WARNING: [Synth 8-3331] design color_convert_AXILiteS_s_axi has unconnected port WSTRB[3]
+WARNING: [Synth 8-3331] design color_convert_AXILiteS_s_axi has unconnected port WSTRB[2]
+WARNING: [Synth 8-3331] design color_convert_AXILiteS_s_axi has unconnected port rst
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 453.000 ; gain = 159.223
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 453.000 ; gain = 159.223
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 453.000 ; gain = 159.223
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/lpb16134/PYNQ-2.3/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ip/base_color_convert_1/constraints/color_convert_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [c:/Users/lpb16134/PYNQ-2.3/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ip/base_color_convert_1/constraints/color_convert_ooc.xdc] for cell 'U0'
+Parsing XDC File [C:/Users/lpb16134/PYNQ-2.3/boards/Pynq-Z2/base/base/base.runs/base_color_convert_1_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/lpb16134/PYNQ-2.3/boards/Pynq-Z2/base/base/base.runs/base_color_convert_1_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.033 . Memory (MB): peak = 819.574 ; gain = 1.574
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:18 . Memory (MB): peak = 819.574 ; gain = 525.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:18 . Memory (MB): peak = 819.574 ; gain = 525.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for U0. (constraint file  C:/Users/lpb16134/PYNQ-2.3/boards/Pynq-Z2/base/base/base.runs/base_color_convert_1_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:18 . Memory (MB): peak = 819.574 ; gain = 525.797
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'wstate_reg' in module 'color_convert_AXILiteS_s_axi'
+INFO: [Synth 8-802] inferred FSM for state register 'rstate_reg' in module 'color_convert_AXILiteS_s_axi'
+INFO: [Synth 8-5544] ROM "BVALID" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "WREADY_t" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "AWREADY_t" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "wnext" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "wnext" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "RVALID_t" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ARREADY_t" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "rnext" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "rnext" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "stream_in_24_data_0_state_cmp_full" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "stream_in_24_last_V_0_state_cmp_full" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "stream_in_24_user_V_0_state_cmp_full" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "stream_out_24_data_1_state_cmp_full" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "stream_out_24_last_V_1_state_cmp_full" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "stream_out_24_user_V_1_state_cmp_full" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+WARNING: [Synth 8-6014] Unused sequential element c1_c2_V_0_data_reg_reg was removed.  [c:/Users/lpb16134/PYNQ-2.3/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/c015/hdl/vhdl/color_convert.vhd:1163]
+WARNING: [Synth 8-6014] Unused sequential element c2_c2_V_0_data_reg_reg was removed.  [c:/Users/lpb16134/PYNQ-2.3/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/c015/hdl/vhdl/color_convert.vhd:1187]
+WARNING: [Synth 8-6014] Unused sequential element c3_c2_V_0_data_reg_reg was removed.  [c:/Users/lpb16134/PYNQ-2.3/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/c015/hdl/vhdl/color_convert.vhd:1211]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                             0001 |                              011
+*
+                  wridle |                             0010 |                              000
+                  wrdata |                             0100 |                              001
+                  wrresp |                             1000 |                              010
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'wstate_reg' using encoding 'one-hot' in module 'color_convert_AXILiteS_s_axi'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                              001 |                              110
+*
+                  rdidle |                              010 |                              100
+                  rddata |                              100 |                              101
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'rstate_reg' using encoding 'one-hot' in module 'color_convert_AXILiteS_s_axi'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:18 . Memory (MB): peak = 819.574 ; gain = 525.797
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     20 Bit       Adders := 3     
+	   2 Input      8 Bit       Adders := 3     
++---XORs : 
+	   2 Input      1 Bit         XORs := 12    
++---Registers : 
+	               32 Bit    Registers := 1     
+	               24 Bit    Registers := 4     
+	               20 Bit    Registers := 3     
+	               19 Bit    Registers := 3     
+	               10 Bit    Registers := 42    
+	                8 Bit    Registers := 6     
+	                7 Bit    Registers := 1     
+	                2 Bit    Registers := 6     
+	                1 Bit    Registers := 47    
++---Muxes : 
+	   2 Input     24 Bit        Muxes := 2     
+	  13 Input     10 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 9     
+	   4 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 3     
+	   3 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 9     
+	   4 Input      2 Bit        Muxes := 5     
+	   2 Input      1 Bit        Muxes := 19    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module color_convert_AXILiteS_s_axi 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+	               10 Bit    Registers := 12    
+	                7 Bit    Registers := 1     
++---Muxes : 
+	  13 Input     10 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 3     
+	   3 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 2     
+Module color_convert 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     20 Bit       Adders := 3     
+	   2 Input      8 Bit       Adders := 3     
++---XORs : 
+	   2 Input      1 Bit         XORs := 12    
++---Registers : 
+	               24 Bit    Registers := 4     
+	               20 Bit    Registers := 3     
+	               19 Bit    Registers := 3     
+	               10 Bit    Registers := 30    
+	                8 Bit    Registers := 6     
+	                2 Bit    Registers := 6     
+	                1 Bit    Registers := 47    
++---Muxes : 
+	   2 Input     24 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 9     
+	   2 Input      2 Bit        Muxes := 9     
+	   4 Input      2 Bit        Muxes := 5     
+	   2 Input      1 Bit        Muxes := 19    
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+DSP Report: Generating DSP p, operation Mode is: C+A*B.
+DSP Report: operator p is absorbed into DSP p.
+DSP Report: operator m is absorbed into DSP p.
+DSP Report: Generating DSP p, operation Mode is: C+A*B.
+DSP Report: operator p is absorbed into DSP p.
+DSP Report: operator m is absorbed into DSP p.
+DSP Report: Generating DSP p, operation Mode is: C+A*B.
+DSP Report: operator p is absorbed into DSP p.
+DSP Report: operator m is absorbed into DSP p.
+DSP Report: Generating DSP p, operation Mode is: C+A*B.
+DSP Report: operator p is absorbed into DSP p.
+DSP Report: operator m is absorbed into DSP p.
+DSP Report: Generating DSP p, operation Mode is: C+A*B.
+DSP Report: operator p is absorbed into DSP p.
+DSP Report: operator m is absorbed into DSP p.
+DSP Report: Generating DSP p, operation Mode is: C+A*B.
+DSP Report: operator p is absorbed into DSP p.
+DSP Report: operator m is absorbed into DSP p.
+WARNING: [Synth 8-3331] design color_convert has unconnected port s_axi_AXILiteS_WDATA[31]
+WARNING: [Synth 8-3331] design color_convert has unconnected port s_axi_AXILiteS_WDATA[30]
+WARNING: [Synth 8-3331] design color_convert has unconnected port s_axi_AXILiteS_WDATA[29]
+WARNING: [Synth 8-3331] design color_convert has unconnected port s_axi_AXILiteS_WDATA[28]
+WARNING: [Synth 8-3331] design color_convert has unconnected port s_axi_AXILiteS_WDATA[27]
+WARNING: [Synth 8-3331] design color_convert has unconnected port s_axi_AXILiteS_WDATA[26]
+WARNING: [Synth 8-3331] design color_convert has unconnected port s_axi_AXILiteS_WDATA[25]
+WARNING: [Synth 8-3331] design color_convert has unconnected port s_axi_AXILiteS_WDATA[24]
+WARNING: [Synth 8-3331] design color_convert has unconnected port s_axi_AXILiteS_WDATA[23]
+WARNING: [Synth 8-3331] design color_convert has unconnected port s_axi_AXILiteS_WDATA[22]
+WARNING: [Synth 8-3331] design color_convert has unconnected port s_axi_AXILiteS_WDATA[21]
+WARNING: [Synth 8-3331] design color_convert has unconnected port s_axi_AXILiteS_WDATA[20]
+WARNING: [Synth 8-3331] design color_convert has unconnected port s_axi_AXILiteS_WDATA[19]
+WARNING: [Synth 8-3331] design color_convert has unconnected port s_axi_AXILiteS_WDATA[18]
+WARNING: [Synth 8-3331] design color_convert has unconnected port s_axi_AXILiteS_WDATA[17]
+WARNING: [Synth 8-3331] design color_convert has unconnected port s_axi_AXILiteS_WDATA[16]
+WARNING: [Synth 8-3331] design color_convert has unconnected port s_axi_AXILiteS_WDATA[15]
+WARNING: [Synth 8-3331] design color_convert has unconnected port s_axi_AXILiteS_WDATA[14]
+WARNING: [Synth 8-3331] design color_convert has unconnected port s_axi_AXILiteS_WDATA[13]
+WARNING: [Synth 8-3331] design color_convert has unconnected port s_axi_AXILiteS_WDATA[12]
+WARNING: [Synth 8-3331] design color_convert has unconnected port s_axi_AXILiteS_WDATA[11]
+WARNING: [Synth 8-3331] design color_convert has unconnected port s_axi_AXILiteS_WDATA[10]
+WARNING: [Synth 8-3331] design color_convert has unconnected port s_axi_AXILiteS_WSTRB[3]
+WARNING: [Synth 8-3331] design color_convert has unconnected port s_axi_AXILiteS_WSTRB[2]
+WARNING: [Synth 8-3331] design color_convert has unconnected port ap_rst_n_control
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (U0/\ap_CS_fsm_reg[0] )
+INFO: [Synth 8-3886] merging instance 'U0/color_convert_AXILiteS_s_axi_U/rdata_data_reg[10]' (FDE) to 'U0/color_convert_AXILiteS_s_axi_U/rdata_data_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/color_convert_AXILiteS_s_axi_U/rdata_data_reg[11]' (FDE) to 'U0/color_convert_AXILiteS_s_axi_U/rdata_data_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/color_convert_AXILiteS_s_axi_U/rdata_data_reg[12]' (FDE) to 'U0/color_convert_AXILiteS_s_axi_U/rdata_data_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/color_convert_AXILiteS_s_axi_U/rdata_data_reg[13]' (FDE) to 'U0/color_convert_AXILiteS_s_axi_U/rdata_data_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/color_convert_AXILiteS_s_axi_U/rdata_data_reg[14]' (FDE) to 'U0/color_convert_AXILiteS_s_axi_U/rdata_data_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/color_convert_AXILiteS_s_axi_U/rdata_data_reg[15]' (FDE) to 'U0/color_convert_AXILiteS_s_axi_U/rdata_data_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/color_convert_AXILiteS_s_axi_U/rdata_data_reg[16]' (FDE) to 'U0/color_convert_AXILiteS_s_axi_U/rdata_data_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/color_convert_AXILiteS_s_axi_U/rdata_data_reg[17]' (FDE) to 'U0/color_convert_AXILiteS_s_axi_U/rdata_data_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/color_convert_AXILiteS_s_axi_U/rdata_data_reg[18]' (FDE) to 'U0/color_convert_AXILiteS_s_axi_U/rdata_data_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/color_convert_AXILiteS_s_axi_U/rdata_data_reg[19]' (FDE) to 'U0/color_convert_AXILiteS_s_axi_U/rdata_data_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/color_convert_AXILiteS_s_axi_U/rdata_data_reg[20]' (FDE) to 'U0/color_convert_AXILiteS_s_axi_U/rdata_data_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/color_convert_AXILiteS_s_axi_U/rdata_data_reg[21]' (FDE) to 'U0/color_convert_AXILiteS_s_axi_U/rdata_data_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/color_convert_AXILiteS_s_axi_U/rdata_data_reg[22]' (FDE) to 'U0/color_convert_AXILiteS_s_axi_U/rdata_data_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/color_convert_AXILiteS_s_axi_U/rdata_data_reg[23]' (FDE) to 'U0/color_convert_AXILiteS_s_axi_U/rdata_data_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/color_convert_AXILiteS_s_axi_U/rdata_data_reg[24]' (FDE) to 'U0/color_convert_AXILiteS_s_axi_U/rdata_data_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/color_convert_AXILiteS_s_axi_U/rdata_data_reg[25]' (FDE) to 'U0/color_convert_AXILiteS_s_axi_U/rdata_data_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/color_convert_AXILiteS_s_axi_U/rdata_data_reg[26]' (FDE) to 'U0/color_convert_AXILiteS_s_axi_U/rdata_data_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/color_convert_AXILiteS_s_axi_U/rdata_data_reg[27]' (FDE) to 'U0/color_convert_AXILiteS_s_axi_U/rdata_data_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/color_convert_AXILiteS_s_axi_U/rdata_data_reg[28]' (FDE) to 'U0/color_convert_AXILiteS_s_axi_U/rdata_data_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/color_convert_AXILiteS_s_axi_U/rdata_data_reg[29]' (FDE) to 'U0/color_convert_AXILiteS_s_axi_U/rdata_data_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/color_convert_AXILiteS_s_axi_U/rdata_data_reg[30]' (FDE) to 'U0/color_convert_AXILiteS_s_axi_U/rdata_data_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\color_convert_AXILiteS_s_axi_U/rdata_data_reg[31] )
+WARNING: [Synth 8-3332] Sequential element (color_convert_AXILiteS_s_axi_U/rdata_data_reg[31]) is unused and will be removed from module color_convert.
+WARNING: [Synth 8-3332] Sequential element (ap_CS_fsm_reg[0]) is unused and will be removed from module color_convert.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_4_reg_1006_reg[6]) is unused and will be removed from module color_convert.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_4_reg_1006_reg[5]) is unused and will be removed from module color_convert.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_4_reg_1006_reg[4]) is unused and will be removed from module color_convert.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_4_reg_1006_reg[3]) is unused and will be removed from module color_convert.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_4_reg_1006_reg[2]) is unused and will be removed from module color_convert.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_4_reg_1006_reg[1]) is unused and will be removed from module color_convert.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_4_reg_1006_reg[0]) is unused and will be removed from module color_convert.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_12_reg_1016_reg[6]) is unused and will be removed from module color_convert.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_12_reg_1016_reg[5]) is unused and will be removed from module color_convert.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_12_reg_1016_reg[4]) is unused and will be removed from module color_convert.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_12_reg_1016_reg[3]) is unused and will be removed from module color_convert.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_12_reg_1016_reg[2]) is unused and will be removed from module color_convert.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_12_reg_1016_reg[1]) is unused and will be removed from module color_convert.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_12_reg_1016_reg[0]) is unused and will be removed from module color_convert.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_20_reg_1026_reg[6]) is unused and will be removed from module color_convert.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_20_reg_1026_reg[5]) is unused and will be removed from module color_convert.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_20_reg_1026_reg[4]) is unused and will be removed from module color_convert.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_20_reg_1026_reg[3]) is unused and will be removed from module color_convert.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_20_reg_1026_reg[2]) is unused and will be removed from module color_convert.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_20_reg_1026_reg[1]) is unused and will be removed from module color_convert.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_20_reg_1026_reg[0]) is unused and will be removed from module color_convert.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:23 . Memory (MB): peak = 819.574 ; gain = 525.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping  Report (see note below)
++-----------------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name                  | DSP Mapping | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++-----------------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|color_convert_macbkb_DSP48_0 | C+A*B       | 10     | 9      | 18     | -      | 19     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|color_convert_macbkb_DSP48_0 | C+A*B       | 10     | 9      | 18     | -      | 19     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|color_convert_macbkb_DSP48_0 | C+A*B       | 10     | 9      | 18     | -      | 19     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|color_convert_maccud_DSP48_1 | C+A*B       | 10     | 9      | 19     | -      | 20     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|color_convert_maccud_DSP48_1 | C+A*B       | 10     | 9      | 19     | -      | 20     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|color_convert_maccud_DSP48_1 | C+A*B       | 10     | 9      | 19     | -      | 20     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
++-----------------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:31 ; elapsed = 00:00:41 . Memory (MB): peak = 854.488 ; gain = 560.711
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:33 ; elapsed = 00:00:43 . Memory (MB): peak = 894.840 ; gain = 601.063
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:34 ; elapsed = 00:00:44 . Memory (MB): peak = 895.465 ; gain = 601.688
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:35 ; elapsed = 00:00:45 . Memory (MB): peak = 895.465 ; gain = 601.688
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:35 ; elapsed = 00:00:45 . Memory (MB): peak = 895.465 ; gain = 601.688
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:35 ; elapsed = 00:00:46 . Memory (MB): peak = 895.465 ; gain = 601.688
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:35 ; elapsed = 00:00:46 . Memory (MB): peak = 895.465 ; gain = 601.688
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:35 ; elapsed = 00:00:46 . Memory (MB): peak = 895.465 ; gain = 601.688
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:35 ; elapsed = 00:00:46 . Memory (MB): peak = 895.465 ; gain = 601.688
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++--------------+----------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name   | RTL Name                                           | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++--------------+----------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|color_convert | bias_c1_V_read_reg_921_pp0_iter3_reg_reg[9]        | 3      | 10    | NO           | NO                 | YES               | 10     | 0       | 
+|color_convert | bias_c2_V_read_reg_916_pp0_iter3_reg_reg[9]        | 3      | 10    | NO           | NO                 | YES               | 10     | 0       | 
+|color_convert | bias_c3_V_read_reg_911_pp0_iter3_reg_reg[9]        | 3      | 10    | NO           | NO                 | YES               | 10     | 0       | 
+|color_convert | stream_in_24_user_V_s_reg_956_pp0_iter4_reg_reg[0] | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|color_convert | stream_in_24_last_V_s_reg_961_pp0_iter4_reg_reg[0] | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
++--------------+----------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+----------+------+
+|      |Cell      |Count |
++------+----------+------+
+|1     |CARRY4    |    57|
+|2     |DSP48E1_1 |     3|
+|3     |DSP48E1_2 |     3|
+|4     |LUT1      |     4|
+|5     |LUT2      |    58|
+|6     |LUT3      |   206|
+|7     |LUT4      |   140|
+|8     |LUT5      |   117|
+|9     |LUT6      |   188|
+|10    |MUXF7     |    20|
+|11    |MUXF8     |    10|
+|12    |SRL16E    |    32|
+|13    |FDRE      |   541|
+|14    |FDSE      |     2|
++------+----------+------+
+
+Report Instance Areas: 
++------+-------------------------------------+-------------------------------+------+
+|      |Instance                             |Module                         |Cells |
++------+-------------------------------------+-------------------------------+------+
+|1     |top                                  |                               |  1381|
+|2     |  U0                                 |color_convert                  |  1381|
+|3     |    color_convert_AXILiteS_s_axi_U   |color_convert_AXILiteS_s_axi   |   357|
+|4     |    color_convert_macbkb_U1          |color_convert_macbkb           |    44|
+|5     |      color_convert_macbkb_DSP48_0_U |color_convert_macbkb_DSP48_0_7 |    44|
+|6     |    color_convert_macbkb_U2          |color_convert_macbkb_0         |    44|
+|7     |      color_convert_macbkb_DSP48_0_U |color_convert_macbkb_DSP48_0_6 |    44|
+|8     |    color_convert_macbkb_U3          |color_convert_macbkb_1         |    58|
+|9     |      color_convert_macbkb_DSP48_0_U |color_convert_macbkb_DSP48_0   |    58|
+|10    |    color_convert_maccud_U4          |color_convert_maccud           |     1|
+|11    |      color_convert_maccud_DSP48_1_U |color_convert_maccud_DSP48_1_5 |     1|
+|12    |    color_convert_maccud_U5          |color_convert_maccud_2         |     1|
+|13    |      color_convert_maccud_DSP48_1_U |color_convert_maccud_DSP48_1_4 |     1|
+|14    |    color_convert_maccud_U6          |color_convert_maccud_3         |     1|
+|15    |      color_convert_maccud_DSP48_1_U |color_convert_maccud_DSP48_1   |     1|
++------+-------------------------------------+-------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:35 ; elapsed = 00:00:46 . Memory (MB): peak = 895.465 ; gain = 601.688
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 51 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:25 ; elapsed = 00:00:35 . Memory (MB): peak = 895.465 ; gain = 235.113
+Synthesis Optimization Complete : Time (s): cpu = 00:00:36 ; elapsed = 00:00:46 . Memory (MB): peak = 895.465 ; gain = 601.688
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 93 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+82 Infos, 81 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:37 ; elapsed = 00:00:50 . Memory (MB): peak = 895.465 ; gain = 611.508
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/lpb16134/PYNQ-2.3/boards/Pynq-Z2/base/base/base.runs/base_color_convert_1_synth_1/base_color_convert_1.dcp' has been generated.
+INFO: [Coretcl 2-1482] Added synthesis output to IP cache for IP c:/Users/lpb16134/PYNQ-2.3/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ip/base_color_convert_1/base_color_convert_1.xci
+config_ip_cache: Time (s): cpu = 00:00:01 ; elapsed = 00:00:12 . Memory (MB): peak = 895.465 ; gain = 0.000
+INFO: [Coretcl 2-1174] Renamed 14 cell refs.
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/lpb16134/PYNQ-2.3/boards/Pynq-Z2/base/base/base.runs/base_color_convert_1_synth_1/base_color_convert_1.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file base_color_convert_1_utilization_synth.rpt -pb base_color_convert_1_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.040 . Memory (MB): peak = 895.465 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed May 15 15:33:35 2019...

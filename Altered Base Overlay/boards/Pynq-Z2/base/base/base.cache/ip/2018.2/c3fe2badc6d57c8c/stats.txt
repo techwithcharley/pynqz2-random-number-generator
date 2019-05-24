@@ -1,0 +1,4 @@
+NumberHits:3
+Timestamp: Wed May 15 11:43:34 UTC 2019
+VLNV: xilinx.com:user:dff_en_reset_vector:1.0
+SynthRuntime: 38

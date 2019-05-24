@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed May 15 15:32:08 2019
+# Process ID: 8996
+# Current directory: C:/Users/lpb16134/PYNQ-2.3/boards/Pynq-Z2/base/base/base.runs/base_m02_regslice_5_synth_1
+# Command line: vivado.exe -log base_m02_regslice_5.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source base_m02_regslice_5.tcl
+# Log file: C:/Users/lpb16134/PYNQ-2.3/boards/Pynq-Z2/base/base/base.runs/base_m02_regslice_5_synth_1/base_m02_regslice_5.vds
+# Journal file: C:/Users/lpb16134/PYNQ-2.3/boards/Pynq-Z2/base/base/base.runs/base_m02_regslice_5_synth_1\vivado.jou
+#-----------------------------------------------------------
+source base_m02_regslice_5.tcl -notrace
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP base_m02_regslice_5, cache-ID = 10155ba733ff607f.
+INFO: [Common 17-206] Exiting Vivado at Wed May 15 15:32:16 2019...

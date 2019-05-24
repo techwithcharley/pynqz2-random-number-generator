@@ -1,0 +1,4 @@
+NumberHits:0
+Timestamp: Wed May 15 14:24:30 UTC 2019
+VLNV: xilinx.com:user:color_swap:1.1
+SynthRuntime: 38
